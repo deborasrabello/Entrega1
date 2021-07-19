@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+.section-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 62px;
+}
+
+.background-section{
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-one{
+    background-image: url(../assets/bg.jpg);
+    padding: 20px;
+}
+.section-two{
+    background-color: black;
+    padding: 20px;
+}
+
+.card-container{
+    background-color:black;
+    width: 75%;
+    margin: 0 auto;
+}
+ 
+.cadastre{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+#cadastrar{
+    background: black;
+    color: white;
+    font-weight: bolder;
+    border-color: white;
+}
+#cadastrar:hover{
+    background: white;
+    color: black;
+}
+input{
+    width: 300px;
+    height: 75px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer{
+    height: 10vh;
+    padding: 25px;
+    text-align: center;
+    background-color:black;
+    color: cornsilk;
+}
+
+#content{
+    color:goldenrod;
+    font-size: 16px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+.sales{
+    background-color: #fccc65;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    height: 80vh;
+    /* width: 60vw; */
+    justify-content: space-evenly;
+}
+.sales1{
+    display: flex;
+    justify-content: space-evenly;
+    height: 35vh;
+    width: 75vw;
+    margin: 0 auto;
+    /* padding-top: 5vh; */
+}
+.sales2{
+    display: flex;
+    justify-content: space-evenly;
+    height: 35vh;
+    width: 75vw;
+    margin: 0 auto;
+    /* padding-top: 5vh; */
+    /* padding-bottom: 5vh; */
+}
